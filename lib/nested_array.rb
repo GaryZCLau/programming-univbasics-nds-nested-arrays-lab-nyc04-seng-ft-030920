@@ -47,7 +47,7 @@ def sorted_matrix
     "Eggplant"
   ]
 
-produce = [ORAGNIC_PRODUCE.sort, CONVENTIONAL_PRODUCE.sort]
+produce = [CONVENTIONAL_PRODUCE.sort, ORGANIC_PRODUCE.sort]
 return produce
 
 end

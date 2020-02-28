@@ -39,7 +39,7 @@ def sorted_matrix
     "Asparagus"
   ]
 
-  coventional_produce = [
+  conventional_produce = [
     "Grapefruit",
     "Pineapple",
     "Oranges",
@@ -47,7 +47,7 @@ def sorted_matrix
     "Eggplant"
   ]
 
-produce = [coventional_produce.sort, organic_produce.sort]
+produce = [conventional_produce.sort, organic_produce.sort]
 return produce
 
 end

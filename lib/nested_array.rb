@@ -48,7 +48,6 @@ def sorted_matrix
   ]
 
 produce = [conventional_produce.sort, organic_produce.sort]
-return produce
 
 end
 

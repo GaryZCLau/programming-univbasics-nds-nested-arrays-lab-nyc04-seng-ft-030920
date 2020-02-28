@@ -25,6 +25,7 @@ def assembled_matrix
  ["Grapefruit", "Pineapple", "Oranges", "Watermelon", "Eggplant"],
  ["Strawberries", "Potatoes", "Grapes", "Avocadoes", "Asparagus"]
 ]
+produce
 end
 
 def sorted_matrix

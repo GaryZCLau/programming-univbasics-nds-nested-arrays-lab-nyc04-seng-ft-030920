@@ -31,7 +31,7 @@ def sorted_matrix
   # Using Array literal syntax only, build another nested array that
   # uses the arrays of conventional and organic produce as before.
   # However, this time, sort each internal array alphabetically by the first character
-  ORGANIC_PRODUCE = [
+  organic_produce = [
     "Strawberries",
     "Potatoes",
     "Grapes",
@@ -39,7 +39,7 @@ def sorted_matrix
     "Asparagus"
   ]
 
-  CONVENTIONAL_PRODUCE = [
+  coventional_produce = [
     "Grapefruit",
     "Pineapple",
     "Oranges",
@@ -47,7 +47,7 @@ def sorted_matrix
     "Eggplant"
   ]
 
-produce = [CONVENTIONAL_PRODUCE.sort, ORGANIC_PRODUCE.sort]
+produce = [coventional_produce.sort, organic_produce.sort]
 return produce
 
 end
